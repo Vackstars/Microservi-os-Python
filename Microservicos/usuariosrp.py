@@ -5,7 +5,6 @@ import json
 from py_eureka_client import eureka_client
 
 
-
 app = Flask(__name__)
 
 # Configuração do SQLAlchemy
@@ -114,4 +113,4 @@ def excluir_usuario_endpoint(id):
 
 
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(port=5002)
